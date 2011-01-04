@@ -1,0 +1,4 @@
+<!--
+  This bookmarklet is quite simple, it just adds a script tag to the page which loads the main JavaScript from elsewhere.
+  -->
+<a href="javascript:(function(){var%20script=document.createElement('script');script.setAttribute('type','text/javascript');script.setAttribute('src','https://github.com/johnmckerrell/OSMify/raw/master/osmify.js?rand='+Math.random());var%20heads=document.getElementsByTagName('head');if(heads[0])heads[0].appendChild(script);})()">OSMify</a>
